@@ -1,0 +1,6 @@
+{
+  "name": "Usk Bar and Grill",
+  "description": "Small-town bar & grill in Usk, Washington featuring brick oven pizzas, famous appetizers, rec room, online ordering, and table reservations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

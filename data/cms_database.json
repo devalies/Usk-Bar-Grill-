@@ -1,0 +1,1641 @@
+{
+  "admins": [
+    {
+      "id": "admin-1",
+      "name": "Owner Admin",
+      "email": "admin@uskbarandgrill.com",
+      "role": "admin",
+      "createdAt": "2026-09-26T01:43:10.413Z",
+      "passwordHash": "ca6613f727516be057f3e3c9bce9c6c144c7ee0cb7c71884c39de9c9417b7e4d10302b5488fa7de0b651f5ba809a0cefe4ab8f3886145528e91e8f574de0ba71",
+      "salt": "e53c0685e02a53b24c915e0156ebffe8",
+      "lastLoginAt": "2026-09-26T01:56:05.049Z"
+    },
+    {
+      "id": "editor-1",
+      "name": "Content Editor",
+      "email": "editor@uskbarandgrill.com",
+      "role": "editor",
+      "createdAt": "2026-09-26T01:43:10.413Z",
+      "passwordHash": "c7538d8a7ea2198b351cc7d4d269f6c084f678f786fc28c7d8c280ab444a9be6a3a7363cb18a8bee757c9d4039d2fc1c92ac7f0df6da7b8ed2f403f032b78132",
+      "salt": "03a6b84fdafba9317a6b21d27e984742",
+      "lastLoginAt": "2026-09-26T01:57:37.605Z"
+    }
+  ],
+  "globalSettings": {
+    "siteName": "Usk Bar and Grill",
+    "tagline": "Brick Oven Pizza & Small Town Tavern Hospitality",
+    "logoUrl": "/logo.png",
+    "faviconUrl": "/favicon.png",
+    "primaryPhone": "+1 509-445-1262",
+    "email": "info@uskbarandgrill.com",
+    "address": "112 5th St, Usk, WA 99180",
+    "copyrightText": "© 2026 Usk Bar and Grill. All rights reserved.",
+    "themeAccentColor": "#f59e0b"
+  },
+  "landingSections": [
+    {
+      "id": "sec-hero",
+      "sectionKey": "hero",
+      "title": "Hero / Here Section",
+      "subtitle": "Main banner with headline, badges, and primary call-to-actions",
+      "isEnabled": true,
+      "displayOrder": 1
+    },
+    {
+      "id": "sec-menu",
+      "sectionKey": "menu",
+      "title": "Menu Section & Pizza Builder",
+      "subtitle": "Food categories, signature pizzas, wings, appetizers, and custom pizza builder",
+      "isEnabled": true,
+      "displayOrder": 2
+    },
+    {
+      "id": "sec-rec-room",
+      "sectionKey": "rec-room",
+      "title": "Rec Room & Atmosphere Gallery",
+      "subtitle": "Free foosball, pool table, dart board, and tavern vibes",
+      "isEnabled": true,
+      "displayOrder": 3
+    },
+    {
+      "id": "sec-reservations",
+      "sectionKey": "reservations",
+      "title": "Table & Rec Room Reservations",
+      "subtitle": "Interactive booking for family room, bar, or back rec room",
+      "isEnabled": false,
+      "displayOrder": 4
+    },
+    {
+      "id": "sec-reviews",
+      "sectionKey": "reviews",
+      "title": "Google Reviews & Gemini Summary",
+      "subtitle": "Customer reviews, ratings breakdown, and interactive review form",
+      "isEnabled": true,
+      "displayOrder": 5
+    },
+    {
+      "id": "sec-location",
+      "sectionKey": "location",
+      "title": "Location, Hours & Drive-Through",
+      "subtitle": "Directions, map visual, operating schedule, and drive-through pickup",
+      "isEnabled": true,
+      "displayOrder": 6
+    }
+  ],
+  "heroSettings": {
+    "heading": "Small-town soul, blistered brick oven pizzas, & cold tap beer.",
+    "subheading": "Welcome to Usk Bar and Grill",
+    "description": "Half family-friendly dining, half classic tavern, and a cozy back rec room with free foosball and pool. Famous for our parmesan butter crust, Havarti pickle cigars, and sweet & spicy Thai chicken pizza.",
+    "badgeText": "Pend Oreille County Favorite",
+    "ratingText": "4.6",
+    "reviewsCountText": "149 Google Reviews",
+    "hoursStatusText": "Open Daily · Closes 10 PM",
+    "locationBadgeText": "Usk, WA",
+    "priceRangeText": "$10–$20",
+    "primaryButtonText": "Order Online Now",
+    "primaryButtonUrl": "#menu",
+    "secondaryButtonText": "Reserve a Table",
+    "secondaryButtonUrl": "#reservations",
+    "thirdButtonText": "View Full Menu",
+    "thirdButtonUrl": "#menu",
+    "backgroundImage": "/src/assets/images/usk_hero_exterior_cozy_1790385571691.jpg",
+    "stripItem1Title": "Dine-In & Drive-Through",
+    "stripItem1Desc": "Convenient drive-up pickup window on 5th Street",
+    "stripItem2Title": "Free Rec Room",
+    "stripItem2Desc": "Complimentary pool table & foosball in the back room",
+    "stripItem3Title": "Fresh Brick Oven",
+    "stripItem3Desc": "12\" signature crusts with house cheese stuffed option"
+  },
+  "menuCategories": [
+    {
+      "id": "cat-red-base",
+      "slug": "red-base-pizza",
+      "name": "Red Base Pizzas",
+      "description": "Handcrafted 12\" pizzas with our house red pizza sauce and brick oven crust",
+      "displayOrder": 1,
+      "isActive": true
+    },
+    {
+      "id": "cat-chicken-pizza",
+      "slug": "chicken-pizza",
+      "name": "Chicken Pizza Recipes",
+      "description": "Signature chicken combinations including Garlic Parm, Thai Chicken, and CBR",
+      "displayOrder": 2,
+      "isActive": true
+    },
+    {
+      "id": "cat-specialty-pizza",
+      "slug": "specialty-pizza",
+      "name": "Specialty Gourmet Pizzas",
+      "description": "Chef specials including The Blue Moose, Luau BBQ, and Jalapeno Popper",
+      "displayOrder": 3,
+      "isActive": true
+    },
+    {
+      "id": "cat-appetizers",
+      "slug": "appetizers",
+      "name": "Tavern Appetizers",
+      "description": "Havarti pickle cigars, full pounds of loaded fries, onion rings, and sharables",
+      "displayOrder": 4,
+      "isActive": true
+    },
+    {
+      "id": "cat-wings",
+      "slug": "wings",
+      "name": "Signature Wings",
+      "description": "Crispy bone-in or boneless wings tossed in 8 signature gourmet sauces",
+      "displayOrder": 5,
+      "isActive": true
+    },
+    {
+      "id": "cat-drinks",
+      "slug": "drinks",
+      "name": "Drafts & Drinks",
+      "description": "Pacific Northwest craft drafts, domestic beers, ciders, and sodas",
+      "displayOrder": 6,
+      "isActive": true
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "pizza-honeyed-hawaiian",
+      "categoryId": "red-base-pizza",
+      "name": "The Honeyed Hawaiian",
+      "description": "House red sauce, ham, sweet pineapple, bacon, fresh basil leaves, and finished with a hot honey drizzle.",
+      "price": 21,
+      "popular": true,
+      "isFeatured": true,
+      "isActive": true,
+      "displayOrder": 3,
+      "tags": [
+        "Sweet & Savory",
+        "Chef Recommended"
+      ],
+      "options": [
+        {
+          "name": "Crust Style",
+          "choices": [
+            {
+              "label": "Traditional Brick Oven Crust",
+              "extraPrice": 0
+            },
+            {
+              "label": "Cheese Stuffed Crust",
+              "extraPrice": 1.5
+            }
+          ]
+        },
+        {
+          "name": "Extra Heat",
+          "choices": [
+            {
+              "label": "Regular",
+              "extraPrice": 0
+            },
+            {
+              "label": "Add Pickled Jalapenos",
+              "extraPrice": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza-garlic-parm-chicken",
+      "categoryId": "chicken-pizza",
+      "name": "Garlic Parmesan Bacon Chicken Pizza",
+      "description": "Garlic Parmesan base, mozzarella, roasted chicken, crispy bacon, and topped with a double portion of fresh Parmesan and basil.",
+      "price": 20,
+      "popular": true,
+      "isFeatured": true,
+      "isActive": true,
+      "displayOrder": 4,
+      "tags": [
+        "Fan Favorite",
+        "House Specialty"
+      ],
+      "options": [
+        {
+          "name": "Crust Style",
+          "choices": [
+            {
+              "label": "Traditional Brick Oven Crust",
+              "extraPrice": 0
+            },
+            {
+              "label": "Cheese Stuffed Crust",
+              "extraPrice": 1.5
+            }
+          ]
+        },
+        {
+          "name": "Topping Additions",
+          "choices": [
+            {
+              "label": "Standard",
+              "extraPrice": 0
+            },
+            {
+              "label": "Add Goat Cheese Crumble",
+              "extraPrice": 1.5
+            },
+            {
+              "label": "Add Fresh Mushrooms",
+              "extraPrice": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza-sweet-spicy-thai",
+      "categoryId": "chicken-pizza",
+      "name": "Sweet & Spicy Thai Chicken Pizza",
+      "description": "Thai peanut / garlic honey sauce base, mozzarella, marinated chicken, red onions, fresh basil & peppers, hot honey drizzle.",
+      "price": 20,
+      "popular": true,
+      "isFeatured": true,
+      "isActive": true,
+      "displayOrder": 5,
+      "tags": [
+        "Most Reviewed",
+        "Must Try"
+      ],
+      "options": [
+        {
+          "name": "Crust Style",
+          "choices": [
+            {
+              "label": "Traditional Brick Oven Crust",
+              "extraPrice": 0
+            },
+            {
+              "label": "Cheese Stuffed Crust",
+              "extraPrice": 1.5
+            }
+          ]
+        },
+        {
+          "name": "Greens",
+          "choices": [
+            {
+              "label": "Standard Basil & Peppers",
+              "extraPrice": 0
+            },
+            {
+              "label": "Add Fresh Arugula",
+              "extraPrice": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza-bbq-chicken",
+      "categoryId": "chicken-pizza",
+      "name": "BBQ Chicken Pizza",
+      "description": "Sweet smoky BBQ sauce base, mozzarella, seasoned chicken, and crisp red onions.",
+      "price": 18.5,
+      "popular": false,
+      "isFeatured": false,
+      "isActive": true,
+      "displayOrder": 6,
+      "tags": [],
+      "options": [
+        {
+          "name": "Crust Style",
+          "choices": [
+            {
+              "label": "Traditional Brick Oven Crust",
+              "extraPrice": 0
+            },
+            {
+              "label": "Cheese Stuffed Crust",
+              "extraPrice": 1.5
+            }
+          ]
+        },
+        {
+          "name": "Cheese / Meat Add-ons",
+          "choices": [
+            {
+              "label": "Standard",
+              "extraPrice": 0
+            },
+            {
+              "label": "Add Bleu Cheese Crumble",
+              "extraPrice": 1.5
+            },
+            {
+              "label": "Add Extra Bacon",
+              "extraPrice": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza-chicken-bacon-ranch",
+      "categoryId": "chicken-pizza",
+      "name": "Chicken Bacon Ranch Pizza",
+      "description": "Creamy ranch sauce base, melted mozzarella, marinated tender chicken breast, and smoked bacon.",
+      "price": 18.5,
+      "popular": true,
+      "isFeatured": true,
+      "isActive": true,
+      "displayOrder": 7,
+      "tags": [],
+      "options": [
+        {
+          "name": "Crust Style",
+          "choices": [
+            {
+              "label": "Traditional Brick Oven Crust",
+              "extraPrice": 0
+            },
+            {
+              "label": "Cheese Stuffed Crust",
+              "extraPrice": 1.5
+            }
+          ]
+        },
+        {
+          "name": "Vegetables",
+          "choices": [
+            {
+              "label": "Standard",
+              "extraPrice": 0
+            },
+            {
+              "label": "Add Red Onions",
+              "extraPrice": 1.5
+            },
+            {
+              "label": "Add Fresh Tomatoes",
+              "extraPrice": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza-buffalo-wings",
+      "categoryId": "chicken-pizza",
+      "name": "Buffalo Wings Pizza",
+      "description": "Cream cheese and Frank's hot sauce base, rich mozzarella, and seasoned chicken bites.",
+      "price": 17,
+      "popular": false,
+      "isFeatured": false,
+      "isActive": true,
+      "displayOrder": 8,
+      "tags": [],
+      "options": [
+        {
+          "name": "Crust Style",
+          "choices": [
+            {
+              "label": "Traditional Brick Oven Crust",
+              "extraPrice": 0
+            },
+            {
+              "label": "Cheese Stuffed Crust",
+              "extraPrice": 1.5
+            }
+          ]
+        },
+        {
+          "name": "Kick & Crumbles",
+          "choices": [
+            {
+              "label": "Standard",
+              "extraPrice": 0
+            },
+            {
+              "label": "Add Fresh Jalapenos",
+              "extraPrice": 1.5
+            },
+            {
+              "label": "Add Bleu Cheese Crumble",
+              "extraPrice": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza-mango-habanero",
+      "categoryId": "chicken-pizza",
+      "name": "Mango Habanero Chicken & Sausage Pizza",
+      "description": "Sweet and spicy mango habanero base, mozzarella, chicken, sausage, juicy pineapple, and pickled jalapenos.",
+      "price": 21.5,
+      "popular": false,
+      "isFeatured": false,
+      "isActive": true,
+      "displayOrder": 9,
+      "tags": [],
+      "options": [
+        {
+          "name": "Crust Style",
+          "choices": [
+            {
+              "label": "Traditional Brick Oven Crust",
+              "extraPrice": 0
+            },
+            {
+              "label": "Cheese Stuffed Crust",
+              "extraPrice": 1.5
+            }
+          ]
+        },
+        {
+          "name": "Base Option",
+          "choices": [
+            {
+              "label": "Standard Mango Habanero Base",
+              "extraPrice": 0
+            },
+            {
+              "label": "Cream Cheese Base Blend",
+              "extraPrice": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza-blue-moose",
+      "categoryId": "specialty-pizza",
+      "name": "The Blue Moose Pizza",
+      "description": "Olive oil & garlic butter base, generous covering of blue cheese crumble, topped with prosciutto, fresh arugula, and balsamic vinegar drizzle.",
+      "price": 19.5,
+      "popular": true,
+      "isFeatured": true,
+      "isActive": true,
+      "displayOrder": 10,
+      "tags": [
+        "Signature Gourmet"
+      ],
+      "options": [
+        {
+          "name": "Crust Style",
+          "choices": [
+            {
+              "label": "Traditional Brick Oven Crust",
+              "extraPrice": 0
+            },
+            {
+              "label": "Cheese Stuffed Crust",
+              "extraPrice": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza-luau-bbq",
+      "categoryId": "specialty-pizza",
+      "name": "Luau BBQ Pizza",
+      "description": "BBQ sauce base, mozzarella, ham, sweet pineapple, smoked bacon, sliced red onion, and Italian prosciutto.",
+      "price": 21,
+      "popular": false,
+      "isFeatured": false,
+      "isActive": true,
+      "displayOrder": 11,
+      "tags": [],
+      "options": [
+        {
+          "name": "Crust Style",
+          "choices": [
+            {
+              "label": "Traditional Brick Oven Crust",
+              "extraPrice": 0
+            },
+            {
+              "label": "Cheese Stuffed Crust",
+              "extraPrice": 1.5
+            }
+          ]
+        },
+        {
+          "name": "Finishing Touches",
+          "choices": [
+            {
+              "label": "Standard",
+              "extraPrice": 0
+            },
+            {
+              "label": "Arugula & Balsamic Glaze",
+              "extraPrice": 1.5
+            },
+            {
+              "label": "Add Lamana Hot Honey",
+              "extraPrice": 1.5
+            },
+            {
+              "label": "Add Marinated Chicken",
+              "extraPrice": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza-jalapeno-popper",
+      "categoryId": "specialty-pizza",
+      "name": "Jalapeno Popper Pizza",
+      "description": "Cream cheese base, crisp diced jalapenos, ham, smoked bacon, and finished with hot honey drizzle.",
+      "price": 19.5,
+      "popular": true,
+      "isFeatured": true,
+      "isActive": true,
+      "displayOrder": 12,
+      "tags": [
+        "Local Favorite"
+      ],
+      "options": [
+        {
+          "name": "Crust Style",
+          "choices": [
+            {
+              "label": "Traditional Brick Oven Crust",
+              "extraPrice": 0
+            },
+            {
+              "label": "Cheese Stuffed Crust",
+              "extraPrice": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza-feta-sausage-mushroom",
+      "categoryId": "specialty-pizza",
+      "name": "Feta, Italian Sausage & Mushroom Pizza",
+      "description": "Alfredo / cream cheese base, rich feta and goat cheese crumble, seasoned Italian sausage, and sautéed mushrooms.",
+      "price": 18.5,
+      "popular": false,
+      "isFeatured": false,
+      "isActive": true,
+      "displayOrder": 13,
+      "tags": [],
+      "options": [
+        {
+          "name": "Crust Style",
+          "choices": [
+            {
+              "label": "Traditional Brick Oven Crust",
+              "extraPrice": 0
+            },
+            {
+              "label": "Cheese Stuffed Crust",
+              "extraPrice": 1.5
+            }
+          ]
+        },
+        {
+          "name": "Add-Ons",
+          "choices": [
+            {
+              "label": "Standard",
+              "extraPrice": 0
+            },
+            {
+              "label": "Add Marinated Chicken",
+              "extraPrice": 2
+            },
+            {
+              "label": "Add Fresh Arugula",
+              "extraPrice": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza-veggie-lovers",
+      "categoryId": "specialty-pizza",
+      "name": "Veggie Lovers Pizza",
+      "description": "House Alfredo sauce base, bell peppers, sweet onions, ripe tomatoes, black olives, and fresh mushrooms.",
+      "price": 18.5,
+      "popular": false,
+      "isFeatured": false,
+      "isActive": true,
+      "displayOrder": 14,
+      "tags": [],
+      "options": [
+        {
+          "name": "Crust Style",
+          "choices": [
+            {
+              "label": "Traditional Brick Oven Crust",
+              "extraPrice": 0
+            },
+            {
+              "label": "Cheese Stuffed Crust",
+              "extraPrice": 1.5
+            }
+          ]
+        },
+        {
+          "name": "Drizzle",
+          "choices": [
+            {
+              "label": "None",
+              "extraPrice": 0
+            },
+            {
+              "label": "Add House Ranch Drizzle",
+              "extraPrice": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "app-pickle-cigars",
+      "categoryId": "appetizers",
+      "name": "Pickle Cigars",
+      "description": "Four Havarti cheese and egg roll wrapped pickle spears deep fried to golden crisp and served with garlic honey ranch.",
+      "price": 12,
+      "image": "/src/assets/images/usk_pickle_cigars_loaded_fries_1790385606595.jpg",
+      "popular": true,
+      "isFeatured": true,
+      "isActive": true,
+      "displayOrder": 15,
+      "tags": [
+        "House Specialty",
+        "Legendary Item"
+      ],
+      "options": [
+        {
+          "name": "Portion Size",
+          "choices": [
+            {
+              "label": "Full Order (4 Cigars)",
+              "extraPrice": 0
+            },
+            {
+              "label": "Half Order (2 Cigars)",
+              "extraPrice": -4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "app-loaded-fries",
+      "categoryId": "appetizers",
+      "name": "Gourmet Loaded Fries",
+      "description": "A full pound of crispy shoestring fries, heavily topped and baked to gooey tavern perfection.",
+      "price": 13,
+      "image": "/src/assets/images/usk_pickle_cigars_loaded_fries_1790385606595.jpg",
+      "popular": true,
+      "isFeatured": true,
+      "isActive": true,
+      "displayOrder": 16,
+      "tags": [
+        "Baked to Perfection",
+        "1 Pound"
+      ],
+      "options": [
+        {
+          "name": "Flavor Style",
+          "choices": [
+            {
+              "label": "Garlic, Parmesan & Bacon Fries",
+              "extraPrice": 0
+            },
+            {
+              "label": "Bacon & Bleu Cheese Fries",
+              "extraPrice": 0
+            },
+            {
+              "label": "Feta, Prosciutto, Basil & Balsamic Fries",
+              "extraPrice": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "app-onion-rings",
+      "categoryId": "appetizers",
+      "name": "Onion Rings Basket",
+      "description": "Half pound of thick-cut sweet onion rings in crunchy golden batter. Served with your choice of dipping sauce.",
+      "price": 8,
+      "popular": true,
+      "isFeatured": true,
+      "isActive": true,
+      "displayOrder": 17,
+      "tags": [
+        "Crispy Golden"
+      ],
+      "options": [
+        {
+          "name": "Complimentary Dipping Sauce",
+          "choices": [
+            {
+              "label": "House Ranch",
+              "extraPrice": 0
+            },
+            {
+              "label": "Garlic Honey Ranch",
+              "extraPrice": 0
+            },
+            {
+              "label": "Sweet Baby Rays BBQ",
+              "extraPrice": 0
+            },
+            {
+              "label": "Frank Buffalo Hot Sauce",
+              "extraPrice": 0
+            },
+            {
+              "label": "Marinara",
+              "extraPrice": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "app-side-fries",
+      "categoryId": "appetizers",
+      "name": "Side of Crispy Shoestring Fries",
+      "description": "Half pound of seasoned hot fries with one complimentary dipping sauce.",
+      "price": 6,
+      "popular": false,
+      "isFeatured": false,
+      "isActive": true,
+      "displayOrder": 18,
+      "tags": [],
+      "options": [
+        {
+          "name": "Dipping Sauce",
+          "choices": [
+            {
+              "label": "House Ranch",
+              "extraPrice": 0
+            },
+            {
+              "label": "Garlic Honey Ranch",
+              "extraPrice": 0
+            },
+            {
+              "label": "BBQ Sauce",
+              "extraPrice": 0
+            },
+            {
+              "label": "Ketchup & Fry Sauce",
+              "extraPrice": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "app-jalapeno-poppers",
+      "categoryId": "appetizers",
+      "name": "Jalapeno Poppers",
+      "description": "Crispy breaded poppers stuffed with smooth cheese and jalapeno heat. Served with mango habanero ranch.",
+      "price": 12,
+      "popular": false,
+      "isFeatured": false,
+      "isActive": true,
+      "displayOrder": 19,
+      "tags": []
+    },
+    {
+      "id": "app-chicken-strips-fries",
+      "categoryId": "appetizers",
+      "name": "Chicken Strips & Fries Basket",
+      "description": "Tender, juicy breaded chicken tenderloins served with a generous bed of crispy shoestring fries and dipping sauce.",
+      "price": 12,
+      "popular": true,
+      "isFeatured": true,
+      "isActive": true,
+      "displayOrder": 20,
+      "tags": [],
+      "options": [
+        {
+          "name": "Dipping Sauce",
+          "choices": [
+            {
+              "label": "Garlic Honey Ranch",
+              "extraPrice": 0
+            },
+            {
+              "label": "House Ranch",
+              "extraPrice": 0
+            },
+            {
+              "label": "Sweet Baby Rays BBQ",
+              "extraPrice": 0
+            },
+            {
+              "label": "Honey Mustard",
+              "extraPrice": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "app-shareable-caesar",
+      "categoryId": "appetizers",
+      "name": "Shareable Caesar Salad",
+      "description": "Crisp romaine lettuce, aged parmesan cheese, tossed in our classic Caesar dressing, topped with seasoned crunchy croutons.",
+      "price": 15,
+      "popular": false,
+      "isFeatured": false,
+      "isActive": true,
+      "displayOrder": 21,
+      "tags": [],
+      "options": [
+        {
+          "name": "Salad Portion",
+          "choices": [
+            {
+              "label": "Full Shareable Salad",
+              "extraPrice": 0
+            },
+            {
+              "label": "Half Salad",
+              "extraPrice": -7
+            }
+          ]
+        },
+        {
+          "name": "Add Chicken",
+          "choices": [
+            {
+              "label": "No Meat",
+              "extraPrice": 0
+            },
+            {
+              "label": "Add Grilled/Marinated Chicken",
+              "extraPrice": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "app-mac-cheese-bites",
+      "categoryId": "appetizers",
+      "name": "Mac & Cheese Bites & Fries",
+      "description": "Creamy macaroni and cheddar cheese enrobed in a golden crispy coating, served hot with crispy fries.",
+      "price": 10,
+      "popular": false,
+      "isFeatured": false,
+      "isActive": true,
+      "displayOrder": 22,
+      "tags": []
+    },
+    {
+      "id": "app-fried-mushrooms",
+      "categoryId": "appetizers",
+      "name": "Fried Mushrooms & House Sauce",
+      "description": "Plump whole button mushrooms breaded and fried to juicy golden brown perfection with house dipping sauce.",
+      "price": 8,
+      "popular": false,
+      "isFeatured": false,
+      "isActive": true,
+      "displayOrder": 23,
+      "tags": []
+    },
+    {
+      "id": "app-mozzarella-sticks",
+      "categoryId": "appetizers",
+      "name": "Mozzarella Sticks & Marinara",
+      "description": "Crispy herb-crusted mozzarella sticks with stringy melted cheese center, served with warm house marinara.",
+      "price": 10,
+      "popular": false,
+      "isFeatured": false,
+      "isActive": true,
+      "displayOrder": 24,
+      "tags": []
+    },
+    {
+      "id": "app-sampler",
+      "categoryId": "appetizers",
+      "name": "The Usk Sampler Platter",
+      "description": "Chicken strips with dipping sauce, choice of shoestring fries or onion rings, and crispy mozzarella sticks with marinara.",
+      "price": 20,
+      "popular": true,
+      "isFeatured": true,
+      "isActive": true,
+      "displayOrder": 25,
+      "tags": [],
+      "options": [
+        {
+          "name": "Choice of Side",
+          "choices": [
+            {
+              "label": "Shoestring Fries",
+              "extraPrice": 0
+            },
+            {
+              "label": "Onion Rings Basket",
+              "extraPrice": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wings-platter",
+      "categoryId": "wings",
+      "name": "Signature Tavern Wings (Bone-in or Boneless)",
+      "description": "Choice of crispy bone-in or breaded boneless wings smothered in your favorite gourmet sauce. Served with celery & choice of dipping sauce.",
+      "price": 15,
+      "popular": true,
+      "isFeatured": true,
+      "isActive": true,
+      "displayOrder": 26,
+      "tags": [
+        "8 Gourmet Sauces",
+        "Crowd Favorite"
+      ],
+      "options": [
+        {
+          "name": "Wing Style",
+          "choices": [
+            {
+              "label": "Bone-In Crispy Wings",
+              "extraPrice": 0
+            },
+            {
+              "label": "Breaded Boneless Wings",
+              "extraPrice": 0
+            }
+          ]
+        },
+        {
+          "name": "Sauce Flavor",
+          "choices": [
+            {
+              "label": "Franks Classic Buffalo Hot",
+              "extraPrice": 0
+            },
+            {
+              "label": "Garlic Honey",
+              "extraPrice": 0
+            },
+            {
+              "label": "Garlic Parmesan",
+              "extraPrice": 0
+            },
+            {
+              "label": "Sweet Baby Rays BBQ",
+              "extraPrice": 0
+            },
+            {
+              "label": "Carolina Tangy BBQ",
+              "extraPrice": 0
+            },
+            {
+              "label": "Mango Habanero",
+              "extraPrice": 0
+            },
+            {
+              "label": "New Orleans Bourbon BBQ",
+              "extraPrice": 0
+            },
+            {
+              "label": "Sweet & Sour",
+              "extraPrice": 0
+            }
+          ]
+        },
+        {
+          "name": "Dipping Sauce",
+          "choices": [
+            {
+              "label": "House Ranch",
+              "extraPrice": 0
+            },
+            {
+              "label": "Bleu Cheese Dip",
+              "extraPrice": 0
+            },
+            {
+              "label": "Garlic Honey Ranch",
+              "extraPrice": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drink-pnw-draft",
+      "categoryId": "drinks",
+      "name": "Pacific Northwest Craft Draft Beer Pint",
+      "description": "Rotating selection of regional Washington & Oregon IPAs, ambers, stouts, and blonde ales on draft.",
+      "price": 6,
+      "popular": false,
+      "isFeatured": false,
+      "isActive": true,
+      "displayOrder": 27,
+      "tags": [],
+      "options": [
+        {
+          "name": "Draft Selection",
+          "choices": [
+            {
+              "label": "Local Washington IPA",
+              "extraPrice": 0
+            },
+            {
+              "label": "Northwest Amber Ale",
+              "extraPrice": 0
+            },
+            {
+              "label": "Hazy Pale Ale",
+              "extraPrice": 0
+            },
+            {
+              "label": "Crisp Pilsner",
+              "extraPrice": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drink-domestic-draft",
+      "categoryId": "drinks",
+      "name": "Domestic Cold Draft / Bottle",
+      "description": "Ice-cold classic beers poured fresh from the tap.",
+      "price": 4.5,
+      "popular": false,
+      "isFeatured": false,
+      "isActive": true,
+      "displayOrder": 28,
+      "tags": [],
+      "options": [
+        {
+          "name": "Selection",
+          "choices": [
+            {
+              "label": "Coors Light Tap",
+              "extraPrice": 0
+            },
+            {
+              "label": "Bud Light Tap",
+              "extraPrice": 0
+            },
+            {
+              "label": "Rainier Bottle",
+              "extraPrice": 0
+            },
+            {
+              "label": "Busch Light Draft",
+              "extraPrice": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drink-hard-cider",
+      "categoryId": "drinks",
+      "name": "Washington Hard Cider / Seltzer",
+      "description": "Crisp regional apple cider or refreshing flavored spiked seltzer.",
+      "price": 5.5,
+      "popular": false,
+      "isFeatured": false,
+      "isActive": true,
+      "displayOrder": 29,
+      "tags": []
+    },
+    {
+      "id": "drink-sodas",
+      "categoryId": "drinks",
+      "name": "Fountain Sodas & Iced Tea",
+      "description": "Coca-Cola, Diet Coke, Sprite, Dr Pepper, Root Beer, Fresh Brewed Iced Tea, Lemonade (Free Refills).",
+      "price": 3,
+      "popular": false,
+      "isFeatured": false,
+      "isActive": true,
+      "displayOrder": 30,
+      "tags": [],
+      "options": [
+        {
+          "name": "Beverage Choice",
+          "choices": [
+            {
+              "label": "Coca-Cola",
+              "extraPrice": 0
+            },
+            {
+              "label": "Diet Coke",
+              "extraPrice": 0
+            },
+            {
+              "label": "Sprite",
+              "extraPrice": 0
+            },
+            {
+              "label": "Dr Pepper",
+              "extraPrice": 0
+            },
+            {
+              "label": "Root Beer",
+              "extraPrice": 0
+            },
+            {
+              "label": "Fresh Brewed Iced Tea",
+              "extraPrice": 0
+            },
+            {
+              "label": "Lemonade",
+              "extraPrice": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item-1790387221173",
+      "categoryId": "red-base-pizza",
+      "name": "Demo item",
+      "description": "Demo item",
+      "price": 1000,
+      "image": "/uploads/ChatGPT_Image_Sep_26__2026__07_1790387216565.png",
+      "popular": true,
+      "isFeatured": true,
+      "isActive": true,
+      "displayOrder": 30,
+      "tags": [],
+      "options": []
+    }
+  ],
+  "businessInfo": {
+    "name": "Usk Bar and Grill",
+    "tagline": "Authentic Brick Oven Pizza, Craft Appetizers & Small Town Tavern Hospitality",
+    "description": "Small town tavern and family restaurant in Usk, Washington featuring brick oven fired 12\" specialty pizzas, famous Havarti pickle cigars, loaded fries, and a complimentary back rec room with pool and foosball.",
+    "logoUrl": "/logo.png",
+    "faviconUrl": "/favicon.png",
+    "phone": "+1 509-445-1262",
+    "secondaryPhone": "",
+    "email": "info@uskbarandgrill.com",
+    "website": "https://uskbarandgrill.com",
+    "address": "112 5th St",
+    "city": "Usk, WA 99180",
+    "country": "United States",
+    "plusCode": "8P79+HP Usk, Washington, USA",
+    "mapsUrl": "https://www.google.com/maps/place/Usk+Bar+%26+Grill/@48.3129848,-117.2845667,17z",
+    "latitude": 48.3129848,
+    "longitude": -117.2845667,
+    "businessType": "Bar & Grill / Pizzeria",
+    "businessStatus": "Open Daily",
+    "amenities": [
+      "Brick oven fired 12\" specialty pizzas",
+      "Free foosball & pool table in private back rec room",
+      "Darts board & classic tavern games",
+      "Drive-through pickup window & Dine-in",
+      "Family dining section + full bar/tavern section",
+      "Locally famous Havarti pickle cigars & loaded fries"
+    ],
+    "geminiSummary": "Diners like this bar and grill's delicious pizza, especially the Thai pizza and Parmesan butter crust, along with their tasty boneless wings. They also highlight the reasonable prices and the friendly, efficient service. Guests mention the homey, relaxed atmosphere and a small rec room with free foosball and pool."
+  },
+  "statistics": [
+    {
+      "id": "stat-1",
+      "label": "Google Review Score",
+      "value": "4.6",
+      "prefix": "★",
+      "suffix": "/5.0",
+      "icon": "Star",
+      "displayOrder": 1,
+      "isVisible": true
+    },
+    {
+      "id": "stat-2",
+      "label": "Verified Diner Reviews",
+      "value": "149",
+      "prefix": "",
+      "suffix": "+",
+      "icon": "Users",
+      "displayOrder": 2,
+      "isVisible": true
+    },
+    {
+      "id": "stat-3",
+      "label": "Brick Oven Pizza Size",
+      "value": "12",
+      "prefix": "",
+      "suffix": " Inch",
+      "icon": "Flame",
+      "displayOrder": 3,
+      "isVisible": true
+    },
+    {
+      "id": "stat-4",
+      "label": "Free Foosball & Pool",
+      "value": "100",
+      "prefix": "",
+      "suffix": "% Free",
+      "icon": "Trophy",
+      "displayOrder": 4,
+      "isVisible": true
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc-1",
+      "name": "Usk Bar & Grill (Main Tavern & Drive-thru)",
+      "address": "112 5th St",
+      "city": "Usk, WA 99180",
+      "country": "United States",
+      "phone": "+1 509-445-1262",
+      "email": "orders@uskbarandgrill.com",
+      "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=112+5th+St,+Usk,+WA+99180",
+      "latitude": 48.3129848,
+      "longitude": -117.2845667,
+      "openingHoursSummary": "Mon–Sun: 11:00 AM – 10:00 PM",
+      "isActive": true,
+      "displayOrder": 1,
+      "isPrimary": true
+    }
+  ],
+  "openingHours": [
+    {
+      "id": "hour-mon",
+      "dayOfWeek": "Monday",
+      "isOpen": true,
+      "openTime": "11:00 AM",
+      "closeTime": "9:30 PM",
+      "displayOrder": 1
+    },
+    {
+      "id": "hour-tue",
+      "dayOfWeek": "Tuesday",
+      "isOpen": true,
+      "openTime": "11:00 AM",
+      "closeTime": "9:30 PM",
+      "displayOrder": 2
+    },
+    {
+      "id": "hour-wed",
+      "dayOfWeek": "Wednesday",
+      "isOpen": true,
+      "openTime": "11:00 AM",
+      "closeTime": "9:30 PM",
+      "displayOrder": 3
+    },
+    {
+      "id": "hour-thu",
+      "dayOfWeek": "Thursday",
+      "isOpen": true,
+      "openTime": "11:00 AM",
+      "closeTime": "9:30 PM",
+      "displayOrder": 4
+    },
+    {
+      "id": "hour-fri",
+      "dayOfWeek": "Friday",
+      "isOpen": true,
+      "openTime": "11:00 AM",
+      "closeTime": "10:00 PM",
+      "displayOrder": 5
+    },
+    {
+      "id": "hour-sat",
+      "dayOfWeek": "Saturday",
+      "isOpen": true,
+      "openTime": "11:00 AM",
+      "closeTime": "10:00 PM",
+      "displayOrder": 6
+    },
+    {
+      "id": "hour-sun",
+      "dayOfWeek": "Sunday",
+      "isOpen": true,
+      "openTime": "11:00 AM",
+      "closeTime": "9:00 PM",
+      "displayOrder": 7
+    }
+  ],
+  "features": [
+    {
+      "id": "feat-1",
+      "title": "Artisan Brick Oven Crust",
+      "description": "12\" hand-tossed pizzas fired to golden blistering perfection with our famous parmesan butter crust.",
+      "icon": "Flame",
+      "badge": "Signature",
+      "isActive": true,
+      "displayOrder": 1
+    },
+    {
+      "id": "feat-2",
+      "title": "Free Back Rec Room",
+      "description": "Classic green felt pool table, tournament foosball, and electronic darts complimentary for dining guests.",
+      "icon": "Gamepad2",
+      "badge": "Free Play",
+      "isActive": true,
+      "displayOrder": 2
+    },
+    {
+      "id": "feat-3",
+      "title": "5th Street Drive-Through Window",
+      "description": "Convenient drive-up window on 5th Street for instant pizza, appetizer, and takeout pickup.",
+      "icon": "Car",
+      "badge": "Drive-Thru",
+      "isActive": true,
+      "displayOrder": 3
+    },
+    {
+      "id": "feat-4",
+      "title": "Split Family & Tavern Seating",
+      "description": "Half friendly family dining room for all ages, half authentic tavern bar with cold craft draft beers.",
+      "icon": "Users",
+      "badge": "All Ages",
+      "isActive": true,
+      "displayOrder": 4
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "rev-1",
+      "author": "Robert Joy",
+      "authorSubtitle": "Local Guide · 62 reviews · 3 photos",
+      "rating": 5,
+      "timeAgo": "3 months ago",
+      "comment": "Very cute, small town, bar and grill. About half the seating area is family other half is bar. There is a very cute small rec room in the back with free foosball and pool. Just enough room for one group of people to enjoy at a time. Wonderful pizza and great service.",
+      "tags": [
+        "foosball",
+        "pool",
+        "local bar and grill",
+        "pizza"
+      ],
+      "likes": 4,
+      "isApproved": true,
+      "isActive": true,
+      "displayOrder": 1
+    },
+    {
+      "id": "rev-2",
+      "author": "Khristopher Thompson",
+      "authorSubtitle": "Local Guide · 19 reviews",
+      "rating": 5,
+      "timeAgo": "3 months ago",
+      "comment": "Went to the Usk Bar & Grill for the first time the other night, with friends who frequent the establishment. Upon arrival we were greeted quickly and sat at our table. The waitress who served us was polite and efficient. The food (pizza) was top notch!",
+      "tags": [
+        "pizza",
+        "service",
+        "friendly staff"
+      ],
+      "likes": 3,
+      "isApproved": true,
+      "isActive": true,
+      "displayOrder": 2
+    },
+    {
+      "id": "rev-3",
+      "author": "Eric Grisotti",
+      "authorSubtitle": "9 reviews · 5 photos",
+      "rating": 5,
+      "timeAgo": "a year ago",
+      "comment": "What a great place! Who knew? In Usk, Washington that we would find such a great little bar and grill. We shared onion rings and a beer to start. While we enjoyed those items, we saw a pizza get delivered to another table. We knew we had to order one too—blistered parmesan butter crust, hot out of the brick oven!",
+      "tags": [
+        "onion rings",
+        "beer",
+        "pizza",
+        "local bar and grill"
+      ],
+      "likes": 6,
+      "isApproved": true,
+      "isActive": true,
+      "displayOrder": 3
+    },
+    {
+      "id": "rev-4",
+      "author": "Sarah Jenkins",
+      "authorSubtitle": "34 reviews · 12 photos",
+      "rating": 5,
+      "timeAgo": "2 months ago",
+      "comment": "The Pickle Cigars and Sweet & Spicy Thai Chicken pizza are out of this world! Love that we can bring the kids to the family side or hang in the back with pool and foosball while waiting for the food.",
+      "tags": [
+        "pickle cigars",
+        "foosball",
+        "thai pizza"
+      ],
+      "likes": 5,
+      "isApproved": true,
+      "isActive": true,
+      "displayOrder": 4
+    },
+    {
+      "id": "rev-5",
+      "author": "Mark Vandenberg",
+      "authorSubtitle": "Local Guide · 112 reviews",
+      "rating": 5,
+      "timeAgo": "4 months ago",
+      "comment": "Great pit stop while driving through Pend Oreille County. Friendly locals, quick drive-through pickup for hot pizzas, and reasonable prices ($10-$20). Garlic chicken bacon pizza is stellar.",
+      "tags": [
+        "drive-through",
+        "local bar and grill",
+        "pizza",
+        "reasonable prices"
+      ],
+      "likes": 2,
+      "isApproved": true,
+      "isActive": true,
+      "displayOrder": 5
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal-1",
+      "title": "Usk Bar & Grill Exterior at Dusk",
+      "description": "Welcoming rustic Pacific Northwest tavern on 5th Street in Usk, Washington.",
+      "imageUrl": "/src/assets/images/usk_hero_exterior_cozy_1790385571691.jpg",
+      "category": "exterior",
+      "displayOrder": 1,
+      "isVisible": true
+    },
+    {
+      "id": "gal-2",
+      "title": "12\" Brick Oven Fired Pizza",
+      "description": "Blistered parmesan butter crust, hot honey drizzle, and rich mozzarella.",
+      "imageUrl": "/src/assets/images/usk_pizza_brick_oven_1790385584536.jpg",
+      "category": "food",
+      "displayOrder": 2,
+      "isVisible": true
+    },
+    {
+      "id": "gal-3",
+      "title": "Famous Rec Room & Pool Table",
+      "description": "Free pool table and foosball in our private back recreation room.",
+      "imageUrl": "/src/assets/images/usk_rec_room_vibe_1790385596127.jpg",
+      "category": "atmosphere",
+      "displayOrder": 3,
+      "isVisible": true
+    },
+    {
+      "id": "gal-4",
+      "title": "Havarti Pickle Cigars & Loaded Fries",
+      "description": "Egg roll wrapped crispy pickle spears and full pounds of baked loaded fries.",
+      "imageUrl": "/src/assets/images/usk_pickle_cigars_loaded_fries_1790385606595.jpg",
+      "category": "food",
+      "displayOrder": 4,
+      "isVisible": true
+    }
+  ],
+  "ctaSections": [
+    {
+      "id": "cta-order",
+      "key": "order-pickup",
+      "heading": "Hungry? Fresh Brick Oven Pizza in 20 Minutes",
+      "description": "Order online for speedy counter pickup or drive right up to our 5th Street drive-through window!",
+      "buttonText": "Order Online Now",
+      "buttonUrl": "#menu",
+      "phone": "+1 509-445-1262",
+      "isVisible": true
+    },
+    {
+      "id": "cta-party",
+      "key": "party-rec-room",
+      "heading": "Host Your Next Gathering in the Rec Room",
+      "description": "Reserve our back rec room for birthdays, team celebrations, or friendly pool tournaments.",
+      "buttonText": "Reserve a Table",
+      "buttonUrl": "#reservations",
+      "phone": "+1 509-445-1262",
+      "isVisible": true
+    }
+  ],
+  "socialLinks": [
+    {
+      "id": "soc-fb",
+      "platform": "facebook",
+      "label": "Facebook",
+      "url": "https://facebook.com",
+      "isActive": true,
+      "displayOrder": 1
+    },
+    {
+      "id": "soc-maps",
+      "platform": "google-maps",
+      "label": "Google Maps",
+      "url": "https://www.google.com/maps/place/Usk+Bar+%26+Grill/@48.3129848,-117.2845667,17z",
+      "isActive": true,
+      "displayOrder": 2
+    }
+  ],
+  "navigationItems": [
+    {
+      "id": "nav-menu",
+      "label": "Menu",
+      "url": "#menu",
+      "isExternal": false,
+      "isNewTab": false,
+      "displayOrder": 1,
+      "isVisible": true
+    },
+    {
+      "id": "nav-reservations",
+      "label": "Reservations",
+      "url": "#reservations",
+      "isExternal": false,
+      "isNewTab": false,
+      "displayOrder": 2,
+      "isVisible": true
+    },
+    {
+      "id": "nav-rec-room",
+      "label": "Rec Room & Vibe",
+      "url": "#rec-room",
+      "isExternal": false,
+      "isNewTab": false,
+      "displayOrder": 3,
+      "isVisible": true
+    },
+    {
+      "id": "nav-reviews",
+      "label": "Google Reviews",
+      "url": "#reviews",
+      "isExternal": false,
+      "isNewTab": false,
+      "displayOrder": 4,
+      "isVisible": true
+    },
+    {
+      "id": "nav-location",
+      "label": "Hours & Location",
+      "url": "#location",
+      "isExternal": false,
+      "isNewTab": false,
+      "displayOrder": 5,
+      "isVisible": true
+    }
+  ],
+  "footerContent": {
+    "description": "Small-town warmth, brick oven pizzas, homemade appetizers, and free rec room games in Usk, Washington.",
+    "subtext": "Pend Oreille County, WA",
+    "copyrightText": "© 2026 Usk Bar and Grill. All rights reserved.",
+    "columns": [
+      {
+        "title": "Quick Navigation",
+        "links": [
+          {
+            "label": "Full Food & Drink Menu",
+            "url": "#menu"
+          },
+          {
+            "label": "Custom 12\" Pizza Builder",
+            "url": "#pizza-builder"
+          },
+          {
+            "label": "Table Reservations",
+            "url": "#reservations"
+          },
+          {
+            "label": "Free Rec Room (Pool & Foosball)",
+            "url": "#rec-room"
+          },
+          {
+            "label": "Verified Google Reviews (4.6★)",
+            "url": "#reviews"
+          }
+        ]
+      },
+      {
+        "title": "Ordering Options",
+        "links": [
+          {
+            "label": "Walk-In Dine-In Seating",
+            "url": "#reservations"
+          },
+          {
+            "label": "5th Street Drive-Through Window",
+            "url": "#location"
+          },
+          {
+            "label": "Advance Table Booking",
+            "url": "#reservations"
+          },
+          {
+            "label": "Streamlined Online Ordering",
+            "url": "#menu"
+          }
+        ]
+      }
+    ],
+    "showSocials": true,
+    "showHours": true,
+    "showAddress": true
+  },
+  "seoSettings": {
+    "title": "Usk Bar and Grill | Brick Oven Pizza, Rec Room & Tavern in Usk, WA",
+    "metaDescription": "Small-town bar & grill in Usk, Washington featuring brick oven pizzas, famous Havarti pickle cigars, rec room with free pool and foosball, online ordering, and table reservations.",
+    "ogTitle": "Usk Bar and Grill - Brick Oven Pizza & Tavern",
+    "ogDescription": "Visit Usk Bar and Grill on 5th Street in Usk, WA. 12\" brick oven pizzas, cold draft beer, drive-thru window, and free rec room.",
+    "ogImage": "/src/assets/images/usk_hero_exterior_cozy_1790385571691.jpg",
+    "canonicalUrl": "https://uskbarandgrill.com",
+    "robotsIndex": true,
+    "faviconUrl": "/favicon.png"
+  }
+}
